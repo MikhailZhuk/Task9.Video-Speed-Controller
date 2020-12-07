@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 100vh;
+  margin: 0;
+  border: 40px #F8F8F8 solid;
+  background: linear-gradient(to top, #6dd164 50%, #F8F8F8 50%);
+}
+.wrapper {
+  width: 850px;
+  display: flex;
+}
+video {
+  box-shadow: 0 0 2px 4px rgba(15, 63, 12, 0.5);
+}
+.speed {
+  background: #b7fa95;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  border-radius: 50px;
+  margin-left: 10px;
+  box-shadow: 0 0 1px 3px rgba(15, 63, 12, 0.5);
+  overflow: hidden;
+}
+.speed_bar {
+  width: 100%;
+  background: linear-gradient(-170deg, #018701 0%, #15ff00 100%);
+  text-shadow: 1px 1px 0 rgba(20, 55, 26, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  color: white;
+  height: 16.3%;
+}
